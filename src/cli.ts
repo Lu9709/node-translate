@@ -9,7 +9,6 @@ program
   .usage('<English>') //<>必选
   .arguments('<English>')
   .action(function (english){
-    console.log(english);
     translate(english)
   })
 program.parse(process.argv);// 参数解析
